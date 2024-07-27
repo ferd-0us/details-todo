@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .main-container {
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 0px;
+    margin-left: 0px;
+    background:  linear-gradient(45deg,
+    rgba(245, 70, 66, 0.75),
+    rgba(8, 83, 156, 0.75)), url("./education.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .content {
+    width: 3000px;
+    height: auto;
+    margin-left: 50px;
+    margin-top:40px;
+    color: white;
+    position: absolute;
+  }
+  
+  .content h1 {
+    font-family: "Times New Roman";
+    font-size: 50px;
+    padding: 20px;
+  }
+  .content .par {
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 2px;
+  }
+  
+  .form {
+    width: 280px;
+    height: 350px;
+    background: transparent;
+    position: absolute;
+    top: 70px;
+    left: 900px;
+    border-radius: 20px;
+    padding: 25px;
+    border: 2px solid black;
+  }
+  
+  .form input {
+    width: 240px;
+    height: 40px;
+    background: transparent;
+    padding: 5px;
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: rgb(14, 1, 1);
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .form input::placeholder {
+    color: rgb(34, 2, 2);
+    font-weight: bolder;
+    font-family: cursive;
+  }
+  .form button {
+    width: 250px;
+    height: 40px;
+    background: transparent;
+    color: orange;
+    margin-top: 20px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: Arial;
+  }
+  
+  .form button:hover {
+    background-color: rgb(10, 1, 1);
+  }
+.list {
+  height: auto;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  background: linear-gradient(45deg,
+  rgba(245, 70, 66, 0.75),
+  rgba(8, 83, 156, 0.75));
+  background-position: center;
+  background-size: cover;
+}
+
+.listItem {
+  height: 90px;
+  width: 200px;
+  padding: 25px;
+  border: 2px solid black;
+  border-radius: 0px 38px;
+  background: transparent;
+  text-align: center;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+.listItem ul {
+  font-size: 1rem;
+  font-weight: bold;
+}
